@@ -5,6 +5,10 @@
     font-family:"ubuntu", "sans-serif";
 }
 
+body html {
+    position: relative;
+}
+
 
 body {
     /*background: linear-gradient(180deg, #594cee 0%, #8dd0f5 100% );*/
@@ -115,7 +119,7 @@ footer {
     align-items: center;
     justify-content: center;
     background-color: #87564f;
-    position: absolute;
+    position:fixed;
     bottom: 0;
     height: 50px;
     width: 100%;
