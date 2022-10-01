@@ -117,8 +117,9 @@ footer {
     background-color: #87564f;
     position: absolute;
     bottom: 0;
-    height: 5vh;
-    width: 100vw;
+    height: 50px;
+    width: 100%;
+    z-index: 10000;
 }
 footer .footer {
     display: flex;
